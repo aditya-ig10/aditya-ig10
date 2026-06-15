@@ -82,19 +82,6 @@ aditya = {
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aditya-ig10&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7&text_color=FFFFFF&rank_icon=github" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=aditya-ig10&theme=tokyonight&hide_border=true&background=0D1117&ring=6EE7F7&fire=FF6B6B&currStreakLabel=6EE7F7" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya-ig10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&text_color=FFFFFF&langs_count=8" width="48%" />
-</p>
-
----
-
 ## 🏆 Highlights
 
 <p align="center">
