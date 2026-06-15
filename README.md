@@ -100,6 +100,7 @@ aditya = {
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=aditya-ig10&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" />
 </p>
+
 ---
 
 ## 🏅 Achievements
@@ -119,11 +120,6 @@ aditya = {
 `English` — Professional &nbsp;|&nbsp; `Hindi` — Native &nbsp;|&nbsp; `German` — Elementary &nbsp;|&nbsp; `Russian` — Elementary
 
 ---
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" />
-</p>
-
 <p align="center">
   <em>"Build at the edge. Think at the frontier."</em>
 </p>
@@ -135,5 +131,10 @@ aditya = {
 ![](https://github-readme-stats.vercel.app/api?username=aditya-ig10&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=aditya-ig10&theme=radical&hide_border=true)<br/>
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aditya-ig10&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
+
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" />
+</p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
