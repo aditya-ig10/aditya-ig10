@@ -2,49 +2,153 @@
   <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" />
 </p>
 
-<h1 align="center">Heyy there, Aditya this side!</h1>
-<h3 align="center">New here? Read Below to know me!</h3>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6EE7F7&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Aditya+Srivastava+%F0%9F%91%8B;ML+Engineer+%26+Research+Intern;Edge+AI+%7C+NLP+%7C+MLOps+%7C+Full-Stack;Building+things+that+actually+work." alt="Typing SVG" />
+</h1>
 
-## 🔭 Current Projects
-- **Integration of ML Models to Native Apps**: I'm actively working on projects that bring the power of machine learning to native applications. This involves creating seamless integrations that enhance user experiences and provide intelligent features.
-
-## 🌱 Learning and Development
-I'm currently diving deep into the following technologies to expand my skill set and stay at the forefront of the tech industry:
-- **ScikitLearn**: Leveraging this powerful library for building and deploying machine learning models.
-- **LLMs (Large Language Models)**: Exploring the capabilities of large language models for various applications.
-- **GenAI (Generative AI)**: Investigating generative models and their potential for creative and practical solutions.
-- **BERT (Bidirectional Encoder Representations from Transformers)**: Utilizing BERT for natural language processing tasks.
-- **Kubernetes**: Mastering container orchestration to ensure scalable and resilient deployments.
-- **NLP (Natural Language Processing)**: Enhancing my understanding and application of NLP techniques for text analysis and language understanding.
-
-## 🤝 Collaboration
-I am eager to collaborate with **professional ML developers** who are as passionate about machine learning and AI as I am. If you're interested in working on exciting projects and pushing the boundaries of what's possible, let's connect!
-
-## 💬 Professional Experience
-With hands-on experience in **Google Cloud Platform (GCP)**, I have developed and deployed solutions using:
-- **ReactJs**: Implementation and Deployment of Native Apps.
-- **NextJs**: I'm currently working on my latest project via NextJs which is a Web3 based Website.
-- **Auth Services**: Implementing secure authentication services for protecting applications and data.
-- **APIs**: Creating and managing robust APIs for seamless data exchange.
-- **BigQuery**: Harnessing the power of BigQuery for large-scale data analysis.
-- **Virtual Machines (VMs)**: Configuring and optimizing VMs for various computational needs.
-- **Auth Services**: Implementing secure authentication services for protecting applications and data.
-
-## 📫 Get in Touch
-I’m always open to new opportunities and collaborations. Feel free to reach out to me at **igaditya@gmail.com**. Whether you have a project idea, a question, or just want to chat about the latest in ML and AI, I’d love to hear from you!
-
-
-## 🤝 Connect with me:
-<p align="left">
-<a href="https://linkedin.com/in/as0097" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="as0097" height="30" width="40" /></a>
-  <a href="https://www.leetcode.com/aditya-ig10" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="aditya-ig10" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/igaditya10" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="igaditya10" height="30" width="40" /></a>
-  <a href="https://instagram.com/xy_afk" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="xy_afk" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://linkedin.com/in/as0097">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://aditya-ig10.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="mailto:as9928@srmist.edu.in">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=aditya-ig10&style=for-the-badge&color=6EE7F7&label=PROFILE+VIEWS" />
 </p>
 
+---
 
-## 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+## 🧠 About Me
+
+```python
+aditya = {
+    "role"     : ["Research Intern @ IIT (ISM) Dhanbad", "ML Generalist @ Outlier AI"],
+    "studying" : "B.E. Computer Science — SRM IST (Class of 2027)",
+    "research" : "HiSLM — Hierarchical Small Language Model Inference on Edge Devices",
+    "building" : "Synthrun — developer freelance platform for US/UK clients",
+    "focus"    : ["Edge AI", "NLP", "MLOps", "Contrastive Learning"],
+    "currently": "Fine-tuning Phi-3 / Qwen2.5 on NVIDIA Jetson for mining-domain SLMs",
+    "fun_fact" : "I deploy LLMs on hardware that fits in your backpack 🎒",
+}
+```
+
+---
+
+## 🔬 What I'm Working On
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🤖 HiSLM — Edge AI Research</h3>
+      <p>Two-node hierarchical inference architecture on <strong>NVIDIA Jetson AGX Orin + Orin NX</strong>. Deploying quantised SLMs (Phi-3, Qwen2.5) via llama.cpp with CUDA. QLoRA fine-tuning on mining-domain data. Targeting IEEE publication.</p>
+    </td>
+    <td width="50%">
+      <h3>🚀 Synthrun</h3>
+      <p>Freelance agency + platform for developers targeting US/UK clients. Includes <strong>Synthrun Mail</strong> — a production-grade multi-tenant email system with Firebase Auth, Nodemailer + SMTP/TLS, and Brevo integration.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+**ML & AI**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&theme=dark" />
+</p>
+
+**Backend & Cloud**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,fastapi,firebase,aws,docker,linux&theme=dark" />
+</p>
+
+**Frontend & Tools**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,git,vscode&theme=dark" />
+</p>
+
+**Databases & Infra**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,vercel,github&theme=dark" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aditya-ig10&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7&text_color=FFFFFF&rank_icon=github" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=aditya-ig10&theme=tokyonight&hide_border=true&background=0D1117&ring=6EE7F7&fire=FF6B6B&currStreakLabel=6EE7F7" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya-ig10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&text_color=FFFFFF&langs_count=8" width="48%" />
+</p>
+
+---
+
+## 🏆 Highlights
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aditya-ig10&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" />
+</p>
+
+---
+
+## 🚩 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/aditya-ig10/mail-sys-synthrun">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aditya-ig10&repo=mail-sys-synthrun&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7" />
+  </a>
+  <a href="https://github.com/aditya-ig10/Network_Instruction_Detection_System">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aditya-ig10&repo=Network_Instruction_Detection_System&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/aditya-ig10/Lexical_Semantic_Embedding_Model">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aditya-ig10&repo=Lexical_Semantic_Embedding_Model&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7" />
+  </a>
+  <a href="https://github.com/aditya-ig10/sign-language-interpreter">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aditya-ig10&repo=sign-language-interpreter&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7" />
+  </a>
+</p>
+
+---
+
+## 🏅 Achievements
+
+| 🥇 | Event |
+|---|---|
+| 🔬 | Research Intern — IIT (ISM) Dhanbad (HiSLM / IEEE-targeted paper) |
+| 🤖 | ML Generalist — Outlier AI (RLHF, Aether & Millennium Leaf tracks) |
+| 🌐 | Google Gen AI Exchange Hackathon 2025 — Prototype Contributor |
+| 🏆 | OpenAI × NxtWave Hackathon — State-Level Finalist, National Nominee |
+| ☁️ | Oracle Cloud Infrastructure Foundations Associate (Dec 2025) |
+
+---
+
+## 🌐 Languages
+
+`English` — Professional &nbsp;|&nbsp; `Hindi` — Native &nbsp;|&nbsp; `German` — Elementary &nbsp;|&nbsp; `Russian` — Elementary
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" />
+</p>
+
+<p align="center">
+  <em>"Build at the edge. Think at the frontier."</em>
+</p>
 
 ## ✍️ Random Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
