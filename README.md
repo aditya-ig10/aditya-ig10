@@ -100,28 +100,6 @@ aditya = {
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=aditya-ig10&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" />
 </p>
-
----
-
-## 🚩 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/aditya-ig10/mail-sys-synthrun">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aditya-ig10&repo=mail-sys-synthrun&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7" />
-  </a>
-  <a href="https://github.com/aditya-ig10/Network_Instruction_Detection_System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aditya-ig10&repo=Network_Instruction_Detection_System&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/aditya-ig10/Lexical_Semantic_Embedding_Model">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aditya-ig10&repo=Lexical_Semantic_Embedding_Model&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7" />
-  </a>
-  <a href="https://github.com/aditya-ig10/sign-language-interpreter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aditya-ig10&repo=sign-language-interpreter&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=6EE7F7" />
-  </a>
-</p>
-
 ---
 
 ## 🏅 Achievements
