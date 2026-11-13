@@ -5,7 +5,7 @@
   <img src="assets/hero-light.svg" alt="Aditya Srivastava. I design systems that cross silicon, models, agents and product, and keep them running." width="100%">
 </picture>
 
-<br><br>
+<br>
 
 <p>
   <a href="https://adityaxsr.is-a.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-portfolio-dark.svg"><img src="assets/pill-portfolio-light.svg" alt="Portfolio" height="36"></picture></a>
