@@ -134,7 +134,7 @@ def build(s, d, P):
                lambda m: m.group(1) + P["purple"] + m.group(2), s)
     s = re.sub(r'(<circle class="orb-dot" cx="192" cy="116" r="3" fill=")[^"]+(" stroke=")[^"]+(" stroke-width="1\.5"/>)',
                lambda m: m.group(1) + P["orange"] + m.group(2) + P["bg"] + m.group(3), s)
-    s = re.sub(r'(<text class="serif" x="148" y="118" text-anchor="middle" font-size="44" fill="[^"]+">)[^<]*(</text>)',
+    s = re.sub(r'(<text class="serif" x="148" y="126" text-anchor="middle" font-size="44" fill="[^"]+">)[^<]*(</text>)',
                lambda m: m.group(1) + str(lo["n"]) + m.group(2), s)
     s = re.sub(r'(<text x="148" y="184" text-anchor="middle" font-size="11" fill="[^"]+">)[^<]*(</text>)',
                lambda m: m.group(1) + fmt_range(lo["start"], lo["end"]) + m.group(2), s)
