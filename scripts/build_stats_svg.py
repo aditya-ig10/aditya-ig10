@@ -137,6 +137,22 @@ def build(s, d, P):
     s = re.sub(r'(<text x="272" y="166" text-anchor="end" font-size="11" fill="[^"]+">)[^<]*(</text>)',
                lambda m: m.group(1) + f'best {lo["n"]}' + m.group(2), s)
 
+    # ---- longest streak card: day-by-day strip + trophy + goal flame ----
+    pitch = min(248 / lo["n"], 8) if lo["n"] else 8
+    x0 = 24 + (248 - pitch * lo["n"]) / 2
+    cw = max(pitch - 1.3, 1.6)
+    block = "".join(
+        f'<rect class="cell" x="{x0 + i * pitch:.2f}" y="178" width="{cw:.2f}" height="8" rx="1.6" fill="{P["purple"]}" fill-opacity=".8"/>'
+        for i in range(lo["n"])
+    )
+    s = re.sub(r'(?:<rect class="cell" x="[\d.]+" y="178" width="[\d.]+" height="8" rx="1\.6" fill="[^"]+" fill-opacity="\.8"/>)+', block, s)
+    s = re.sub(r'(<circle cx="250" cy="33" r="15" fill=")[^"]+(" fill-opacity="\.14"/>)',
+               lambda m: m.group(1) + P["purple"] + m.group(2), s)
+    s = re.sub(r'(<circle cx="250" cy="33" r="15" fill="none" stroke=")[^"]+(" stroke-opacity="\.35"/>)',
+               lambda m: m.group(1) + P["purple"] + m.group(2), s)
+    s = re.sub(r'(<path fill=")[^"]+(" d="M19 5h-2V3H7v2H5c-1\.1 0-2)',
+               lambda m: m.group(1) + P["purple"] + m.group(2), s)
+
     # ---- all-time card ----
     s = re.sub(r'(<text class="serif" x="24" y="86" font-size="44" fill="[^"]+">)[^<]*(</text>)',
                lambda m: m.group(1) + fmt(d["total_all"]) + m.group(2), s)
