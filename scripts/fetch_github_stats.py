@@ -40,14 +40,17 @@ meta = gql("query($l:String!){user(login:$l){createdAt repositories(ownerAffilia
 created = dt.datetime.fromisoformat(meta["createdAt"].replace("Z", "+00:00"))
 
 CAL = """query($l:String!,$from:DateTime!,$to:DateTime!){user(login:$l){
-  contributionsCollection(from:$from,to:$to){contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"""
+  contributionsCollection(from:$from,to:$to){totalPullRequestContributions
+  contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"""
 
 counts = {}
+prs_total = 0
 start = created
 while start < now:
     end = min(start + dt.timedelta(days=360), now)  # the API allows at most one year per request
-    cal = gql(CAL, {"l": LOGIN, "from": iso(start), "to": iso(end)})["user"]["contributionsCollection"]["contributionCalendar"]
-    for week in cal["weeks"]:
+    cal = gql(CAL, {"l": LOGIN, "from": iso(start), "to": iso(end)})["user"]["contributionsCollection"]
+    prs_total += cal["totalPullRequestContributions"]
+    for week in cal["contributionCalendar"]["weeks"]:
         for day in week["contributionDays"]:
             d = dt.date.fromisoformat(day["date"])
             if d <= today:
@@ -91,6 +94,7 @@ stats = {
     "generated": iso(now),
     "since": created.year,
     "repos": meta["repositories"]["totalCount"],
+    "prs": prs_total,
     "total_all": sum(counts.values()),
     "total_year": sum(n(x) for x in year_days),
     "active_days_year": sum(1 for x in year_days if n(x) > 0),

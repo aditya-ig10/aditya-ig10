@@ -129,29 +129,15 @@ def build(s, d, P):
                lambda m: m.group(1) + str(lo["n"]) + m.group(2), s)
     s = re.sub(r'(<text x="24" y="118" text-anchor="start" font-size="12" fill="[^"]+">)[^<]*(</text>)',
                lambda m: m.group(1) + fmt_range(lo["start"], lo["end"]) + m.group(2), s)
-    w = 248 * cur["n"] / lo["n"] if lo["n"] else 0
-    s = re.sub(r'<rect class="bar" x="24" y="136" width="[\d.]+" height="10" rx="5" fill="[^"]+"/>',
-               f'<rect class="bar" x="24" y="136" width="{w:.1f}" height="10" rx="5" fill="{P["purple"]}"/>', s)
-    s = re.sub(r'(<text x="24" y="166" text-anchor="start" font-size="11" fill="[^"]+">)[^<]*(</text>)',
-               lambda m: m.group(1) + f'now {cur["n"]}' + m.group(2), s)
-    s = re.sub(r'(<text x="272" y="166" text-anchor="end" font-size="11" fill="[^"]+">)[^<]*(</text>)',
-               lambda m: m.group(1) + f'best {lo["n"]}' + m.group(2), s)
-
-    # ---- longest streak card: day-by-day strip + trophy + goal flame ----
-    pitch = min(248 / lo["n"], 8) if lo["n"] else 8
-    x0 = 24 + (248 - pitch * lo["n"]) / 2
-    cw = max(pitch - 1.3, 1.6)
-    block = "".join(
-        f'<rect class="cell" x="{x0 + i * pitch:.2f}" y="178" width="{cw:.2f}" height="8" rx="1.6" fill="{P["purple"]}" fill-opacity=".8"/>'
-        for i in range(lo["n"])
-    )
-    s = re.sub(r'(?:<rect class="cell" x="[\d.]+" y="178" width="[\d.]+" height="8" rx="1\.6" fill="[^"]+" fill-opacity="\.8"/>)+', block, s)
-    s = re.sub(r'(<circle cx="250" cy="33" r="15" fill=")[^"]+(" fill-opacity="\.14"/>)',
+    # ---- longest streak card: closed-loop medallion ----
+    s = re.sub(r'(<circle class="ring" cx="148" cy="118" r="44" fill="none" stroke=")[^"]+(" stroke-width="3\.5"/>)',
                lambda m: m.group(1) + P["purple"] + m.group(2), s)
-    s = re.sub(r'(<circle cx="250" cy="33" r="15" fill="none" stroke=")[^"]+(" stroke-opacity="\.35"/>)',
-               lambda m: m.group(1) + P["purple"] + m.group(2), s)
-    s = re.sub(r'(<path fill=")[^"]+(" d="M19 5h-2V3H7v2H5c-1\.1 0-2)',
-               lambda m: m.group(1) + P["purple"] + m.group(2), s)
+    s = re.sub(r'(<circle class="orb-dot" cx="192" cy="118" r="3" fill=")[^"]+(" stroke=")[^"]+(" stroke-width="1\.5"/>)',
+               lambda m: m.group(1) + P["orange"] + m.group(2) + P["bg"] + m.group(3), s)
+    s = re.sub(r'(<text class="serif" x="148" y="119" text-anchor="middle" font-size="44" fill="[^"]+">)[^<]*(</text>)',
+               lambda m: m.group(1) + str(lo["n"]) + m.group(2), s)
+    s = re.sub(r'(<text x="148" y="184" text-anchor="middle" font-size="11" fill="[^"]+">)[^<]*(</text>)',
+               lambda m: m.group(1) + fmt_range(lo["start"], lo["end"]) + m.group(2), s)
 
     # ---- all-time card ----
     s = re.sub(r'(<text class="serif" x="24" y="86" font-size="44" fill="[^"]+">)[^<]*(</text>)',
@@ -182,7 +168,7 @@ def build(s, d, P):
     s = re.sub(r'(<g transform="translate\(648 318\)">.*?<text class="serif" x="16" y="40" font-size="26" fill="[^"]+">)[^<]*(</text>)',
                lambda m: m.group(1) + str(d["active_days_year"]) + m.group(2), s, flags=re.S)
     s = re.sub(r'(<g transform="translate\(648 386\)">.*?<text class="serif" x="16" y="40" font-size="26" fill="[^"]+">)[^<]*(</text>)',
-               lambda m: m.group(1) + str(d["repos"]) + m.group(2), s, flags=re.S)
+               lambda m: m.group(1) + str(d["prs"]) + m.group(2), s, flags=re.S)
 
     # ---- desc + preview footer ----
     desc = (f"Animated GitHub stats: activity over the last 52 weeks, current streak of "
