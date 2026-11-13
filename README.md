@@ -5,7 +5,7 @@
   <img src="assets/hero-light.svg" alt="Aditya Srivastava. I design systems that cross silicon, models, agents and product, and keep them running." width="100%">
 </picture>
 
-<br>
+<br><br>
 
 <p>
   <a href="https://adityaxsr.is-a.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-portfolio-dark.svg"><img src="assets/pill-portfolio-light.svg" alt="Portfolio" height="36"></picture></a>
@@ -15,15 +15,11 @@
 
 </div>
 
-<br>
-
 ## About
 
 I'm a final-year computer science student who likes problems that cross layers. One request can touch a Jetson on a desk, a quantised model, an agent deciding which tool to call, and a product someone pays for.
 
 My keenest interest is **multi-domain architecture**: drawing the boundaries so hardware, models, agents and product agree with each other. I write an ADR before every major architecture decision, and I measure what I ship: latency, loss, uptime, conversion.
-
-<br>
 
 ## How the work spans domains
 
@@ -36,8 +32,6 @@ My keenest interest is **multi-domain architecture**: drawing the boundaries so 
 
 <sub>Each ring is a domain of my work. Inner rings are what I build on; outer rings are what I ship on.</sub>
 
-<br>
-
 ## By the numbers
 
 <div align="center">
@@ -48,8 +42,6 @@ My keenest interest is **multi-domain architecture**: drawing the boundaries so 
 </div>
 
 <sub>Live from GitHub. Refreshed weekly by a scheduled Action, no manual updates.</sub>
-
-<br>
 
 <div align="center">
 
