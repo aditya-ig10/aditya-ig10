@@ -1,0 +1,51 @@
+# Refreshes assets/stats-{light,dark}.svg with live GitHub numbers.
+# Kept cheap on purpose: one tiny stdlib-only job, weekly cadence
+# (~4-5 runs x ~20s = under 2 billed minutes/month), plus manual runs.
+# Public repos get unlimited Actions anyway, but this stays cheap either way.
+name: github-stats
+
+on:
+  schedule:
+    - cron: "23 4 * * 1" # Mondays 04:23 UTC — off-peak, avoids top-of-hour crunch
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_github_stats.py"
+      - "scripts/build_stats_svg.py"
+      - ".github/workflows/github-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch contribution data
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }} # STATS_TOKEN (PAT, read:user) also counts private contributions
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/fetch_github_stats.py # stdlib only — no installs
+
+      - name: Render SVGs
+        run: python3 scripts/build_stats_svg.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data assets/stats-light.svg assets/stats-dark.svg
+          if git diff --cached --quiet; then
+            echo "No data changes — skipping commit"
+          else
+            git commit -m "chore: refresh GitHub stats card [skip ci]"
+            git push
+          fi
