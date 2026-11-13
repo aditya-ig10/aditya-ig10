@@ -8,9 +8,9 @@
 <br>
 
 <p>
-  <a href="https://adityaxsr.is-a.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-portfolio-dark.svg"><img src="assets/pill-portfolio-light.svg" alt="Portfolio" height="64"></picture></a>
-  <a href="https://linkedin.com/in/as0097"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-linkedin-dark.svg"><img src="assets/pill-linkedin-light.svg" alt="LinkedIn" height="64"></picture></a>
-  <a href="mailto:adityaxsr@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-email-dark.svg"><img src="assets/pill-email-light.svg" alt="Email" height="64"></picture></a>
+  <a href="https://adityaxsr.is-a.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-portfolio-dark.svg"><img src="assets/pill-portfolio-light.svg" alt="Portfolio" height="36"></picture></a>
+  <a href="https://linkedin.com/in/as0097"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-linkedin-dark.svg"><img src="assets/pill-linkedin-light.svg" alt="LinkedIn" height="36"></picture></a>
+  <a href="mailto:adityaxsr@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-email-dark.svg"><img src="assets/pill-email-light.svg" alt="Email" height="36"></picture></a>
 </p>
 
 </div>
