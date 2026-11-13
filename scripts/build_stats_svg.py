@@ -14,9 +14,11 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 FILES = ["assets/stats-light.svg", "assets/stats-dark.svg"]
 PALETTES = {
     "light": {"bg": "#F3F7F7", "ink": "#0C2430", "muted": "#52707A", "teal": "#0A8F85",
-              "purple": "#6A4CE0", "orange": "#B8610A", "blue": "#2563C9", "pink": "#D63A6A"},
+              "purple": "#6A4CE0", "orange": "#F97316", "amber": "#FBBF24",
+              "blue": "#2563C9", "pink": "#D63A6A"},
     "dark": {"bg": "#0A1A21", "ink": "#E9F1F2", "muted": "#8FA8B0", "teal": "#3FD6C8",
-             "purple": "#B49CFF", "orange": "#FFB36B", "blue": "#7FB8FF", "pink": "#FF8FAB"},
+             "purple": "#B49CFF", "orange": "#FB923C", "amber": "#FCD34D",
+             "blue": "#7FB8FF", "pink": "#FF8FAB"},
 }
 
 
@@ -95,6 +97,10 @@ def build(s, d, P):
 
     # ---- current streak card ----
     cur = d["current"]
+    s = re.sub(r'(<path fill=")[^"]+(" d="M24 2C26 14 40 20)',
+               lambda m: m.group(1) + P["orange"] + m.group(2), s)
+    s = re.sub(r'(<path fill=")[^"]+(" fill-opacity="\.85" d="M24 26C26 32)',
+               lambda m: m.group(1) + P["amber"] + m.group(2), s)
     s = re.sub(r'(<text class="serif" x="116" y="112" font-size="56" fill="[^"]+">)[^<]*(</text>)',
                lambda m: m.group(1) + str(cur["n"]) + m.group(2), s)
     days_x = 116 + 30 * len(str(cur["n"])) + 6
@@ -112,7 +118,7 @@ def build(s, d, P):
         op = "" if active else ' fill-opacity=".2"'
         return f'<circle class="dt" cx="{31 + 28 * i}" cy="176" r="8" fill="{fill}"{op} style="animation-delay:{i * 0.2:.1f}s"/>'
 
-    s = re.sub(r'<circle class="dt" cx="\d+" cy="176" r="8" fill="[^"]+" style="animation-delay:[\d.]+s"/>', dot, s)
+    s = re.sub(r'<circle class="dt" cx="\d+" cy="176" r="8" fill="[^"]+"(?: fill-opacity="[^"]+")? style="animation-delay:[\d.]+s"/>', dot, s)
     active7 = sum(1 for n in d["last7"] if n > 0)
     s = re.sub(r'(<text x="24" y="202" text-anchor="start" font-size="11" fill="[^"]+">)[^<]*(</text>)',
                lambda m: m.group(1) + f"{active7} of 7 days active" + m.group(2), s)
